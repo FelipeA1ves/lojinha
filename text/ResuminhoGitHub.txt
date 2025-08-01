@@ -1,0 +1,60 @@
+✅ Resuminho Git para o Projeto "Lojinha"
+🔁 1. Verificar o status do repositório
+bash
+Copiar
+Editar
+git status
+➕ 2. Adicionar arquivos ao commit
+Adicionar tudo:
+
+bash
+Copiar
+Editar
+git add .
+Adicionar arquivo específico:
+
+bash
+Copiar
+Editar
+git add nome_do_arquivo.php
+📝 3. Criar um commit com mensagem
+bash
+Copiar
+Editar
+git commit -m "Descrição das alterações"
+🚀 4. Enviar para o GitHub
+bash
+Copiar
+Editar
+git push
+🔽 5. Puxar alterações do GitHub (se estiver trabalhando em mais de um PC)
+bash
+Copiar
+Editar
+git pull
+🔗 6. Adicionar ou alterar o repositório remoto
+Adicionar:
+
+bash
+Copiar
+Editar
+git remote add origin https://github.com/FelipeA1ves/lojinha.git
+Alterar:
+
+bash
+Copiar
+Editar
+git remote set-url origin https://github.com/FelipeA1ves/lojinha.git
+🌿 7. Trocar/renomear a branch principal (se necessário)
+bash
+Copiar
+Editar
+git branch -M main
+✅ Fluxo completo de trabalho (resumão do dia a dia)
+bash
+Copiar
+Editar
+git status
+git add .
+git commit -m "Explica o que mudou"
+git push
